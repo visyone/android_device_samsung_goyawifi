@@ -6,7 +6,7 @@ TARGET_SCREEN_HEIGHT := 600
 
 
 ## Configuration Files
-$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
 $(call inherit-product, device/samsung/goyawifi/device_goyawifi.mk)
 
 
